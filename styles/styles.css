@@ -5,12 +5,12 @@ body{
   display:grid;
   grid-template-columns: 15% auto;
   text-align: center;
-  background-color:coral;
+  background-color: #BDE8EF;
 }
 header{
   padding: 25px;
-  background-color: #6495ED;
-  color: #FAEBD7;
+  background-color: #E0CDFF;
+  color: #c3a9ec;
   text-align: right;
   list-style-type: none;
   position: fixed;
@@ -28,14 +28,14 @@ header img{
   width: 100%;
 }
 header a{
-  color: #FAEBD7;
+  color: black;
   text-decoration: none;
 }
 header a:active{
-  color:#DEB887;
+  color: #c3a9ec;
 }
 header a:hover{
-  color: white;
+  color: #c3a9ec;
   text-decoration: underline;
 }
 #page-container {
