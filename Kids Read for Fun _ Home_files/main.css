@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+html{
+    background-color:teal;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: teal;
+}
+header{
+    padding: 25px;
+    background-color: #6495ED;
+    color: #FAEBD7;
+    text-align: right;
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+  }
+li{
+    margin-top: 5px;
+}
+
+header a{
+    color: #FAEBD7;
+    text-decoration: none;
+}
+header a:active{
+    color:#DEB887;
+}
+header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main a{
+    color: teal;
+    text-decoration: none;
+}
+a:active{
+    color:#DEB887;
+}
+body a:hover{
+    text-decoration: underline;
+}
+article{
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+}
+article h2 a{
+    color: black;
+    text-decoration: none;
+}
+article h2 a:active{
+    color: #DEB887;
+}
+article h2 a:hover {
+    color:#6495ED;
+    text-decoration: underline;
+}
+main{
+    background-color: teal;
+    text-align: center;
+}
+@media only screen and (min-width:600px){
+   div{
+       display: grid;
+       grid-template-columns: 20% auto ;
+   }
+   header{
+       grid-column: 1;
+   }
+   main{
+       grid-column: 2;
+       margin:5%;
+       
+   }
+   article {
+    width: 80%;
+    font-size: small;
+    padding: 20px;
+   }
+    
+  }
