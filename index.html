@@ -13,7 +13,7 @@
         <div><img src="./ColorWithKiri_Files/Main Logo.png" alt="Main Logo"></div>
         <nav>
             <ul>
-                <li><a href="index.html"></a>Home</li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="aboutme.html">About Me</a></li>
                 <li><a href="etsy.com">Etsy Link (needs setup)</a></li>
@@ -87,21 +87,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
-
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
 </body>

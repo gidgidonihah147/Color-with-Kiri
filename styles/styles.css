@@ -164,6 +164,11 @@ main{
     width: 100%;
     display: block;
   }
+  header{
+    grid-column: 1/3;
+    display: block;
+  }
+
 }
 
 /* Add some shadows to create a card effect */
