@@ -159,16 +159,30 @@ main{
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
   .column {
     width: 100%;
     display: block;
   }
-  header{
-    grid-column: 1/3;
+  body{
     display: block;
+    grid-template-columns: none;
   }
+  header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  header img {
+    width: 200px;
 
+  }
+  li{
+    display: inline-table;
+    margin: 0;
+    padding:10px;
+  }
 }
 
 /* Add some shadows to create a card effect */
